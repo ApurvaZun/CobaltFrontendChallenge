@@ -1,5 +1,5 @@
 const items = [
-  { name: "Jane Doe", totalPoints: 157, clicks: 5 },
+  { name: "Jane Doe", totalPoints: 9, clicks: 5 },
   { name: "John Johnson", totalPoints: 190, clicks: 9 },
   { name: "Dany Peterson", totalPoints: 9, clicks: 1 },
   { name: "Kate Becket", totalPoints: 150, clicks: 3 },

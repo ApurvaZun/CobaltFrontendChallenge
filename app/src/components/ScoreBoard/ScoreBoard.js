@@ -1,6 +1,6 @@
 import React from "react";
 
-const ScoreBoard = ({ data }) => {
+const ScoreBoard = React.memo(({ data }) => {
   const sortScoreData = data.sort(function(a, b) {
     return b.totalPoints - a.totalPoints;
   });
@@ -13,8 +13,8 @@ const ScoreBoard = ({ data }) => {
         <h4>No. of Clicks</h4>
         <h4>Average Score</h4>
       </div>
-      {sortScoreData.map(item => {
-        const avgScore = item.totalPoints / item.clicks;
+      {sortScoreData.slice(0, 9).map(item => {
+        const avgScore = Math.floor(item.totalPoints / item.clicks);
         return (
           <div key={item.name} className="table-row">
             <div>{item.name}</div>
@@ -26,6 +26,6 @@ const ScoreBoard = ({ data }) => {
       })}
     </div>
   );
-};
+});
 
 export default ScoreBoard;

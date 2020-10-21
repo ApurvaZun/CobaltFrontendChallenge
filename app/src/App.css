@@ -1,5 +1,18 @@
-.App {
+body {
   text-align: center;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #248bd2;
+}
+
+div,
+p {
+  color: black;
 }
 
 .table-head,
@@ -8,4 +21,32 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   grid-auto-rows: minmax(30px, auto);
+}
+
+.submit-post {
+  background: #4000d0;
+  color: #fff;
+  border: none;
+  padding: 11px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.generate-score {
+  background: none;
+  border: 1px solid #248bd2;
+  border-radius: 5px;
+  padding: 10px;
+  color: #248bd2;
+  margin: 10px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.input-field input {
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
 }
