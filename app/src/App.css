@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.table-head,
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(30px, auto);
+}
