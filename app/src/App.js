@@ -10,7 +10,7 @@ function App() {
   const [score, setScore] = React.useState(0);
   const [totalScore, setTotalScore] = React.useState(0);
   const [numberOfTimesClicked, setnumberOfTimesClicked] = React.useState(0);
-  const [name, setName] = React.useState("apurva");
+  const [name, setName] = React.useState("");
   const [data, setData] = React.useState({ items });
 
   React.useEffect(() => {

@@ -12,12 +12,13 @@ const Input = React.memo(
               type="text"
               value={name}
               placeholder="enter your name"
-              onChange={event => handleOnChange(event)}
+              onChange={handleOnChange}
             />
           </label>
         </div>
 
         <button
+          role="generateScore"
           className="generate-score"
           type="submit"
           onClick={generateScore}
@@ -25,7 +26,12 @@ const Input = React.memo(
           Generate score{" "}
         </button>
 
-        <button className="submit-post" type="submit" onClick={makePostAPICall}>
+        <button
+          role="submitPost"
+          className="submit-post"
+          type="submit"
+          onClick={makePostAPICall}
+        >
           Post request{" "}
         </button>
       </div>

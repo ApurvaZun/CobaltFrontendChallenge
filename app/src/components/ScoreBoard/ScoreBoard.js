@@ -13,7 +13,7 @@ const ScoreBoard = React.memo(({ data }) => {
         <h4>No. of Clicks</h4>
         <h4>Average Score</h4>
       </div>
-      {sortScoreData.slice(0, 9).map(item => {
+      {sortScoreData.slice(0, 10).map(item => {
         const avgScore = Math.floor(item.totalPoints / item.clicks);
         return (
           <div key={item.name} className="table-row">
