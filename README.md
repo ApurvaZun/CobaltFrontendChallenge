@@ -30,15 +30,19 @@ Components are displaying the results correctly.
 Focused more on testing if the components are rendered and working correctly.
 
 
-###What API parameters would you request be made available, to optimize data processing on the front end? Assume those parameters are made available to you, and ###incorporate them into your code.
+###What API parameters would you request be made available, to optimize data processing on the front end?
+###Assume those parameters are made available to you, and ###incorporate them into your code.
 
 1. Pagination parameters(page offset, upper limit etc) to get records in chunk and not overwhelm the loading time on frontend
-2. Sorting parameters(sortBy totalPoints, averagePoints and sortingOrder true/false) to get the records in already sorted order which will help display the data faster on frontend
+2. Sorting parameters(sortBy totalPoints, averagePoints and sortingOrder true/false) to get the records in already sorted order
+which will help display the data faster on frontend
 
 
 ###How might this be hacked?
 
-1.Since any player can view the leader board realtime and know who is leading or at top of the list, a hacker who wants himself/herself to be put on the top of the list can enter the name of the real leading player and then submit scores between 0 and      	-100(off course he has to keep trying multiple times before submission)
+1.Since any player can view the leader board realtime and know who is leading or at top of the list, a hacker who wants himself/herself
+to be put on the top of the list can enter the name of the real leading player and then submit scores between 0 and
+-100(off course he has to keep trying multiple times before submission)
 
 
 ```
