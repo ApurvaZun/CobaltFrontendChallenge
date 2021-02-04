@@ -5,7 +5,7 @@ HighScoreApp
 ### Instructions
 
 ```bash
-1. git clone git@github.com:ApurvaZun/CobaltFrontendChallenge.git
+1. git clone git@github.com:ApurvaZun/Score-Board-Reacthooks.git
 
 2. npm install (this will install all dependency)
 
