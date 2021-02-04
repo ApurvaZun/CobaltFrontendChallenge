@@ -1,4 +1,4 @@
-# CobaltFrontendChallenge
+# Score-Board
 HighScoreApp
 
 
