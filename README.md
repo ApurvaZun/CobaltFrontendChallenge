@@ -13,7 +13,7 @@ HighScoreApp
 
 ```
 
-## Explanation to few quetions from the assignment
+## Explanation on few things
 ```bash
 ###Write a couple unit tests, and note why you chose to cover these particular areas of code
 
